@@ -13,7 +13,7 @@ body{
 .nav-bar{
     background-color: #002147;
     color: #cca000;
-    border: 10px solid black;
+    border: 5px solid black;
     height: 15vh;
     display: flex;
     font-weight: bold;
@@ -63,9 +63,10 @@ body{
 
 #contact-me, #about-me, #my-projects, #my-cv{margin-right: 20px;}
 
+
 .main-website{
     background-color: #002147;
-    border: 10px solid brown;
+
     height: 70vh;
     
 }
@@ -93,7 +94,7 @@ body{
 #text-divider{padding-top: 10px;}
 
 #animation{
-    border: 10px dotted khaki;
+
     height: 400px;
     margin-left: 45%;
     margin-right: 5%;
@@ -110,7 +111,7 @@ body{
 .footer-page{
     background-color: #002147;
     color: #cca000;
-    border: 10px solid gray;
+
     height: 15vh;
     display: flex;
     justify-content: space-between;
