@@ -52,7 +52,7 @@ body{
 }
 
 .web-menu > .menu-list > #about-me:hover, .web-menu > .menu-list > #my-projects:hover, .web-menu > .menu-list > #my-cv:hover, .web-menu > .menu-list > #contact-me:hover{
-    color: white;
+    color: rgb(250, 249, 246);
 }
 
 #about-me:visited, #my-projects:visited, #my-cv:visited, #contact-me:visited{
