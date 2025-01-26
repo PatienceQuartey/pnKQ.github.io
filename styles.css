@@ -1,0 +1,309 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    opacity: 0;
+    animation: website-fade 2s forwards;
+
+}
+.nav-bar{
+    background-color: #002147;
+    color: #cca000;
+    border: 10px solid black;
+    height: 15vh;
+    display: flex;
+    font-weight: bold;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    
+
+}
+#nav-check, .nav-dropdown{
+    display: none;
+}
+
+#my-logo{
+
+    width: 8rem;
+    justify-content: space-around;
+    border-radius: 20%;
+
+}
+
+.web-menu{
+    display: flex;
+    margin-right: 5%;
+    list-style-type: none;
+    padding: 0;
+    margin-right: 0;
+}
+
+#about-me, #my-projects, #my-cv, #contact-me{
+    text-decoration: none;
+}
+
+#about-me, #my-projects, #my-cv, #contact-me{
+    color: #cca000;
+}
+
+.web-menu > .menu-list > #about-me:hover, .web-menu > .menu-list > #my-projects:hover, .web-menu > .menu-list > #my-cv:hover, .web-menu > .menu-list > #contact-me:hover{
+    color: white;
+}
+
+#about-me:visited, #my-projects:visited, #my-cv:visited, #contact-me:visited{
+    color: #cca000;
+}
+
+
+
+#contact-me, #about-me, #my-projects, #my-cv{margin-right: 20px;}
+
+.main-website{
+    background-color: #002147;
+    border: 10px solid brown;
+    height: 70vh;
+    
+}
+
+#call-to-action{
+
+    border-radius: 20%;
+    height: 270px;
+    margin-right: 60%;
+    margin-left: 20px;
+    position: relative;
+    top:20px;
+    text-align: justify;
+
+}
+#web-text{
+    padding-right: 90px;
+    padding-left: 60px;
+    text-align: justify;
+    color: #cca000;
+
+
+}
+
+#text-divider{padding-top: 10px;}
+
+#animation{
+    border: 10px dotted khaki;
+    height: 400px;
+    margin-left: 45%;
+    margin-right: 5%;
+    position: relative;
+    top: -200px;
+    background-color: #D1A82E;
+    border-radius: 10%;
+}
+
+#link-name{
+    margin-left: 20px;
+}
+
+.footer-page{
+    background-color: #002147;
+    color: #cca000;
+    border: 10px solid gray;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.copyright{
+    font-size: 20px;
+    font-weight: bold;
+
+
+}
+
+
+
+.socials{
+    display: flex;
+    list-style-type: none;
+    
+}
+
+
+
+#github > a > img{
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+
+    
+}
+
+
+
+#linked-in > a > img{
+    height: 50px;
+    width: 50px;
+    margin-left: 30px;
+}
+
+
+
+#free-code-camp > a > img{
+    height: 50px;
+    width: 50px;
+    margin-left: 30px;
+
+}
+
+
+
+@media(max-width:1024px){
+    .main-website{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #call-to-action{
+        position: relative;
+        top: 0;
+        margin-right:40%
+
+    }
+
+
+    #web-text{
+        padding: 5px;
+        text-align: justify;
+
+    }
+    #text-divider, #extra-divider{padding-top: 25px;}
+
+    #animation{
+        top: 0;
+        position: relative;
+        margin: 0;
+    }
+}
+
+
+
+
+
+@media(max-width:768px){
+
+   #call-to-action{
+        position: relative;
+        top: 0;
+        margin-right: 30%;
+        padding: 0;
+    }
+
+    #web-text{
+        padding-right: 20px;
+        padding-left: 30px;
+        text-align: justify;
+    
+    }
+    #text-divider, #extra-divider{padding-top: 10px;}
+
+    #animation{
+        top: 0;
+        position: relative;
+        margin: 0;
+    }
+
+
+    #my-logo{
+        z-index: 2;
+
+    }
+    .web-menu{
+        display: flex;
+        flex-direction: column;
+        position:fixed;
+        background-color: #002147;
+        right: -100%;
+        transition: all 0.5s;
+        z-index: 1;
+        top: 50px;
+        width: 100%;
+        height: 100vh;
+        top: 15%;
+        bottom: -10px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15%;
+    }
+
+    .nav-dropdown{
+        display: block;
+        order: 1;
+        margin-right: 50px;
+        z-index: 2;
+    }
+
+    #nav-check:checked ~ ul{right: 0;}
+
+    .web-menu > .menu-list {
+        margin: 30px;
+
+    }
+ 
+}
+
+
+
+
+
+@media(max-width:480px){
+    .main-website{
+        display: flex;
+        flex-direction: column;
+    }
+    #call-to-action{
+        position: relative;
+        top: 0;
+        margin-right:10%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    #animation{
+        top: 0;
+        position: relative;
+        margin: 0;
+    }
+}
+
+
+
+
+
+@media(max-width: 300px){
+    #github > a > img, #linked-in > a > img, #free-code-camp > a > img{
+        width: 20px;
+    }
+    .footer-page{
+        display: flex;
+        flex-direction: column;
+    }
+    #copyright-text{font-size: 15px;}
+    #animation{display: none;}
+    #link-name{display: none;}
+
+}
+
+
+
+@keyframes website-fade{
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  

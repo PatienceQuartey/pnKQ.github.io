@@ -1,0 +1,161 @@
+*{
+  margin: 0;
+}
+
+body{
+  background-color: beige;
+  overflow: hidden;
+  background-color: #002147;
+  color: #cca000;
+  
+}
+
+
+
+header{
+  padding-top: 10px;
+  padding-bottom: -25px;
+  height: 20vh;
+
+  color: #cca000;
+}
+
+.header-divider{
+  padding-top: 50px;
+}
+
+.background-stuff{
+  
+  
+  height: 100vh;
+  position: relative;
+  top: -100px;
+
+}
+
+#background-slide{
+  height: 20vh;
+  
+}
+
+h1{
+  text-align: center;
+
+}
+
+#slider-animation{
+
+  height: 400px;
+  background: linear-gradient(#000B47,#002247,#120647);
+
+  position: relative;
+  bottom: 100%;
+  align-items: center;
+  animation-name: email-slider;
+  animation-duration: 10s;
+  animation-delay: 0.5s;
+  animation-fill-mode:forwards;
+
+}
+
+#email-slider{
+  padding-top: 130px;
+  height: 100px;
+
+
+  background:linear-gradient(#000B47,#002147);
+  
+}
+
+p{
+  text-align: center;
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+
+
+@keyframes email-slider {
+  0%{top:-100%;}
+  25%{top: 0%;}
+  50%{top:1px;}
+  100%{top: 2px;}
+}
+
+
+body{
+  opacity: 0;
+  animation: website-fade 3s forwards;
+
+}
+
+
+
+@keyframes website-fade{
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+
+
+@media(max-width:1024px){
+
+}
+
+
+
+@media(max-width:480px){
+
+  header{
+    padding-top: 10px;
+    padding-bottom: -25px;
+    height: 20vh;
+ 
+    color: #cca000;
+  }
+  
+  .header-divider{
+    padding-top: 70px;
+  }
+
+
+
+
+  h1{
+    font-size: 20px;
+  }
+
+  p{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 20px;
+  }
+}
+
+@media(max-width: 300px){
+
+  header{
+    padding-top: 10px;
+    padding-bottom: -25px;
+    height: 20vh;
+
+    color: #cca000;
+  }
+  
+  .header-divider{
+    padding-top: 80px;
+  }
+
+
+  h1{
+    font-size: 15px;
+  }
+
+  p{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 15px;
+  }
+
+}
