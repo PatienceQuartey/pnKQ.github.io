@@ -1,0 +1,366 @@
+body{
+    background-color: #002147;
+    color: #cca000;
+}
+
+
+
+/* ---------work on creating a Navigation Bar here too BEGINS ----------- */
+
+
+
+
+
+/* ---------work on creating a Navigation Bar here too ENDS ----------- */
+
+
+
+
+header{
+
+    margin-left: 300px;
+    margin-right: 300px;
+
+}
+h1{
+    text-align: center;
+    padding:0;
+    align-items: center;
+}
+
+h2{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 40px;
+
+    
+}
+
+.pp-links{
+    
+    height:450px;
+    
+
+}
+
+#text-intro{
+    
+    height: 200px;
+
+}
+
+#github-link{
+    
+    height: 300px;
+    width: 600px;
+    float: left;
+}
+
+#FCC-link{
+    
+    height: 300px;
+    width: 600px;
+    float: right;
+
+
+}
+
+.img-divider{
+    padding-left: 200px;
+}
+
+
+
+
+#github-img, #FCC-img{
+    display: block;
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    background-color: whitesmoke;
+    border-radius: 20%;
+
+}
+
+
+
+
+
+body{
+    opacity: 0;
+    animation: website-fade 3s forwards;
+}
+
+
+
+@media(max-width:1300px){
+    #github-img, #FCC-img{
+        display: block;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+
+    }
+
+    #FCC-link{
+        height: 200px;
+        width: 200px;
+        float: none;
+
+
+    }
+
+    #github-link{
+        
+        height: 200px;
+        width: 200px;
+        float: none;
+        padding-bottom: 40px;
+
+    }
+
+    .pp-links{
+        
+        height:500px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 0px;
+        align-items: center;
+    }
+
+}
+
+
+
+@media(max-width:1200px){
+    #github-img, #FCC-img{
+        display: block;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+
+    }
+
+    #FCC-link{
+        height: 200px;
+        width: 200px;
+        float: none;
+
+
+    }
+
+    #github-link{
+        height: 200px;
+        width: 200px;
+        float: none;
+        padding-bottom: 50px;
+
+    }
+
+    .pp-links{
+
+        height:500px;
+        display: flex;
+        flex-direction: column;
+        padding-left:0px
+    }
+}
+
+
+
+
+
+
+
+@media(max-width:1024px){
+    header{
+
+
+        margin-left: 0px;
+        margin-right: 0px;
+    
+    }
+    #github-img, #FCC-img{
+        display: block;
+        height: 180px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+    }
+
+    #FCC-link{
+
+        height: 200px;
+        width: 200px;
+        float: none;
+
+    }
+
+    #github-link{
+
+        height: 200px;
+        width: 200px;
+        float: none;
+
+    }
+
+    .pp-links{
+
+        height: 500px;
+        align-items: center;
+        margin: 0;
+        padding:0px;
+
+    }
+
+
+    
+
+
+}
+
+
+
+@media(max-width:768px){
+
+    #github-img, #FCC-img{
+        display: block;
+        height: 170px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+    }
+
+    #FCC-link{
+ 
+        height: 180px;
+        width: 180px;
+        float: right;
+
+    }
+
+    #github-link{
+ 
+        height: 180px;
+        width: 180px;
+        float: none;
+    }
+    .pp-links{
+
+        height:400px;
+        align-items: center;
+        margin: 0;
+        padding:0px;
+
+    }
+
+ 
+ 
+}
+
+
+
+@media(max-width:480px){
+    header{
+
+ 
+        margin-left: 0px;
+        margin-right: 0px;
+    
+    }
+    #github-img, #FCC-img{
+        display: block;
+        height: 130px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+    }
+
+    #FCC-link{
+
+        height: 130px;
+        width: 130px;
+        float: right;
+
+    }
+
+    #github-link{
+
+        height: 130px;
+        width: 130px;
+        float: none;
+    }
+
+    .pp-links{
+
+        height:350px;
+        align-items: center;
+        margin: 0;
+        padding:0px;
+
+    }
+}
+
+
+
+@media(max-width: 300px){
+
+    header{
+
+
+        margin-left: 0px;
+        margin-right: 0px;
+    
+    }
+
+
+    #github-img, #FCC-img{
+        display: block;
+        height: 100px;
+        margin-left:0;
+        margin-right: 0;
+        margin-top: 0px;
+    }
+
+    #FCC-link{
+
+        height: 100px;
+        width: 100px;
+        float: none;
+
+  
+    }
+
+    #github-link{
+
+        height: 100px;
+        width: 100px;
+        float: none;
+    }
+
+    .pp-links{
+
+        width:150px;
+        height: 400px;
+        align-items: center;
+        margin: 0;
+        padding:0px;
+
+    }
+    
+    
+    
+
+
+}
+
+
+
+@keyframes website-fade{
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
